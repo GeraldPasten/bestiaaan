@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<replicated-cache name="people" mode="ASYNC" remote-timeout="17500" statistics="true">
+<replicated-cache name="people" mode="SYNC" remote-timeout="17500" statistics="true">
   <backups>
 		<backup site="site-2" strategy="SYNC">
 			<take-offline min-wait="120000"/>
